@@ -54,6 +54,11 @@
 
 #include <assert.h>
 #include <stdarg.h>
+#include <alloca.h>
+
+#ifdef __MACH__
+#include <stdlib.h>
+#endif
 
 //
 // ============================= Networking =============================

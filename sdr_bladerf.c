@@ -23,6 +23,10 @@
 #include <libbladeRF.h>
 #include <inttypes.h>
 
+#ifdef __MACH__
+#include <strings.h>
+#endif
+
 #if !defined(LIBBLADERF_API_VERSION) || (LIBBLADERF_API_VERSION < 0x01060100)
 #error This libbladeRF is too old, upgrade or disable bladerf support
 #endif

@@ -687,4 +687,6 @@ void receiverPositionChanged(float lat, float lon, float alt);
 }
 #endif
 
+#define DARWIN
+
 #endif // __DUMP1090_H

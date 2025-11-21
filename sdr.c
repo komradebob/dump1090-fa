@@ -34,6 +34,10 @@
 #  include "sdr_limesdr.h"
 #endif
 
+#ifdef __MACH__
+#include <strings.h>
+#endif
+
 typedef struct {
     const char *name;
     sdr_type_t sdr_type;
