@@ -1,0 +1,13 @@
+#! /bin/bash
+#########################################################
+#														#
+# Use brew to install needed libs						#
+#														#
+#########################################################
+
+
+
+brew install librtlsdr
+brew install libbladerf
+brew install hackrf
+brew install pkg-config
